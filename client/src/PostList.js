@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import url from './url'
+import CommentCreate from './CommentCreate'
+import CommentList from './CommentList'
 
 export default () => {
     const [posts, setPosts] = useState({})
@@ -13,8 +14,7 @@ export default () => {
 
     useEffect(() => {
         fetchPosts()
-        setPosts(posts)
-    }, [posts])
+    }, [])
 
     const renderedPosts = Object.values(posts).map((post) => {
         return (
@@ -25,6 +25,11 @@ export default () => {
             >
                 <div className="card-body">
                     <h3>{post.title}</h3>
+                </div>
+
+                <CommentList postId={post.id} />
+                <div className="card-footer">
+                    <CommentCreate postId={post.id} />
                 </div>
             </div>
         )
