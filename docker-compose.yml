@@ -1,5 +1,9 @@
 version: '3'
 services:
+    client:
+        build: './client'
+        volumes:
+            - ./client:/app
     posts:
         build: './posts'
         volumes:
