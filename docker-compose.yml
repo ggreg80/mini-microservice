@@ -4,3 +4,23 @@ services:
         build: './posts'
         volumes:
             - ./posts:/app
+
+    comments:
+        build: './comments'
+        volumes:
+            - ./comments:/app
+
+    query:
+        build: './query'
+        volumes:
+            - ./query:/app
+
+    moderation:
+        build: './moderation'
+        volumes:
+            - ./moderation:/app
+
+    event-bus:
+        build: './event-bus'
+        volumes:
+            - ./event-bus:/app
