@@ -5,4 +5,4 @@ metadata:
 spec:
     containers:
         - name: posts
-          image: mini-microservices/posts:0.0.1
+          image: .../posts:0.0.1
