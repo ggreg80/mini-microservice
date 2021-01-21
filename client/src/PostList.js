@@ -3,7 +3,7 @@ import axios from 'axios'
 import CommentCreate from './CommentCreate'
 import CommentList from './CommentList'
 
-export default () => {
+const PostList = () => {
     const [posts, setPosts] = useState({})
 
     const fetchPosts = async () => {
@@ -41,3 +41,5 @@ export default () => {
         </div>
     )
 }
+
+export default PostList
