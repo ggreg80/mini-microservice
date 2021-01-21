@@ -4,3 +4,55 @@ deploy:
     kubectl:
         manifests:
             - ./infra/k8s/*
+build:
+    local:
+        push: false
+    artifacts:
+        - image: nandosbx/client
+          context: client
+          docker:
+              dockerfile: Dockerfile
+          sync:
+              manual:
+                  - src: 'src/**/*.js'
+                    dest: .
+        - image: nandosbx/comments
+          context: comments
+          docker:
+              dockerfile: Dockerfile
+          sync:
+              manual:
+                  - src: '*.js'
+                    dest: .
+        - image: nandosbx/event-bus
+          context: event-bus
+          docker:
+              dockerfile: Dockerfile
+          sync:
+              manual:
+                  - src: '*.js'
+                    dest: .
+        - image: nandosbx/moderation
+          context: moderation
+          docker:
+              dockerfile: Dockerfile
+          sync:
+              manual:
+                  - src: '*.js'
+                    dest: .
+        - image: nandosbx/posts
+          context: posts
+          docker:
+              dockerfile: Dockerfile
+          sync:
+              manual:
+                  - src: '*.js'
+                    dest: .
+        - image: nandosbx/query
+          context: query
+          docker:
+              dockerfile: Dockerfile
+          sync:
+              manual:
+                  - src: '*.js'
+                    dest: .
