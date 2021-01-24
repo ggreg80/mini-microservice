@@ -6,7 +6,7 @@
 -->
 
 <!---<div align="center">
-<img src="https://img.shields.io/badge/ECOMMERCE-CLONE-343a40?style=for-the-badge&logo=appveyor"/><img src="https://img.shields.io/badge/LICENSE-MIT-343a40?style=for-the-badge&logo=appveyor" />
+<img src="https://img.shields.io/badge/Microservice-343a40?style=for-the-badge&logo=appveyor"/><img src="https://img.shields.io/badge/LICENSE-MIT-343a40?style=for-the-badge&logo=appveyor" />
 
 ![GitHub top language](https://img.shields.io/github/languages/count/Nandosbx/mern-ecommerce-clone?color=343a40&&style=for-the-badge&logo=appveyor)![GitHub top language](https://img.shields.io/github/languages/top/Nandosbx/mern-ecommerce-clone?color=343a40&&style=for-the-badge&logo=appveyor)![GitHub last commit](https://img.shields.io/github/last-commit/Nandosbx/mern-ecommerce-clone?color=343a40&&style=for-the-badge&logo=appveyor)![GitHub repo size](https://img.shields.io/github/repo-size/Nandosbx/mern-ecommerce-clone?color=343a40&&style=for-the-badge&logo=appveyor)![GitHub issues](https://img.shields.io/github/issues/Nandosbx/mern-ecommerce-clone?color=343a40&&style=for-the-badge&logo=appveyor)
 </div>-->
@@ -22,7 +22,7 @@ Mini-Microservices project with Docker, Kubernetes, Skaffold, Axios, React, Expr
 <h2>📚 Documentation</h2>
 
 🚧Under construction🚧.
-Access <a href="https://github.com/Nandosbx/mern-ecommerce-clone/blob/master/DOCUMENTATION.md">Documentation</a> and learn more.
+Access <a href="https://github.com/Nandosbx/mini-microservice/blob/master/DOCUMENTATION.md">Documentation</a> and learn more.
 
 ------------
 
@@ -66,7 +66,7 @@ This project was developed with:
 
 <h2>📃License</h2>
 
-This project is under MIT License. Access <a href="https://github.com/Nandosbx/mern-ecommerce-clone/blob/master/LICENSE.md">License</a> and learn more.
+This project is under MIT License. Access <a href="https://github.com/Nandosbx/mini-microservice/blob/master/LICENSE.md">License</a> and learn more.
 
 ------------
 
